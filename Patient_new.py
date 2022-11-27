@@ -21,7 +21,7 @@ patient_cred = ("No patient")
 
 if is_new == True:
     patient_cred = (first_name, int(age))
-.
+..
 else:
     print("Patient exists")
 
