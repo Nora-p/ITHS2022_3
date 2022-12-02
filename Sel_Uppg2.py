@@ -12,5 +12,5 @@ time.sleep(8)
 search = driver.find_element(By.XPATH, "//*[@id='search']")
 search.send_keys("3764015")
 search.send_keys(Keys.ENTER)
-time.sleep(8)
+time.sleep(7)
 
