@@ -1,6 +1,6 @@
 
 firstname = ("John")
-lastname = ("Smit")
+lastname = ("Smith")
 age = 20
 tel = "0708888888"
 sal = 44000
