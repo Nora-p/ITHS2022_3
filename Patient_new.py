@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 firstname = ("John")
 lastname = ("Smith")
