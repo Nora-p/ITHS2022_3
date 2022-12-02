@@ -5,6 +5,7 @@ lastname = ("Smith")
 age = 20
 tel = "0706689788"
 sal = 44000
+gender = ("male")
 is_new = False
 
 class patient:
