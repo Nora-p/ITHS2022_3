@@ -24,3 +24,4 @@ class patient:
     def findgender (gender):
         return gender
 
+print(firstname, lastname, age, gender, sal, phone)
