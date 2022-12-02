@@ -1,11 +1,11 @@
 
-firstname = ("John")
-lastname = ("Smith")
-age = 20
-tel = "0708888888"
-sal = 44000
-gender = ("male")
-is_new = False
+# firstname = ("John")
+# lastname = ("Smith")
+# age = 20
+# tel = "0708888888"
+# sal = 44000
+# gender = ("male")
+# is_new = False
 
 
 class patient:

@@ -13,5 +13,5 @@ def test_gender():
     assert Patient_new.patient.findgender(male) == "male"
 
 def test_phone ():
-    assert Patient_new.patient.findphone(0708888888) == "0708888888"
+    assert Patient_new.patient.findphone(708888888) == "708888888"
 
