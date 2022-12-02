@@ -1,29 +1,26 @@
 <<<<<<< HEAD
-first_name = ("John Smith")
+
+firstname = ("John")
+lastname = ("Smith")
 age = 20
-
+tel = "0706689788"
+sal = 44000
 is_new = False
-patient_cred = ("No patient")
 
-if is_new == True:
-    patient_cred = (first_name, int(age))
+class patient:
 
-else:
-    print("Patient exists")
+    def findname (firstname, lastname):
+        return firstname + lastname
 
-print(patient_cred)
-=======
-first_name = ("John Smith")
-age = 20
+    def findphone (tel):
+        return tel
 
-is_new = False
-patient_cred = ("No patient")
+    def findsal (sal):
+        return sal
 
-if is_new == True:
-    patient_cred = (first_name, int(age))
-..
-else:
-    print("Patient exists")
+    def findage (age):
+        return age
 
-print(patient_cred)
->>>>>>> e49bf58 (First commit)
+    def findgender (gender):
+        return gender
+
