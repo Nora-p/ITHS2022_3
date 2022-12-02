@@ -1,5 +1,4 @@
 
-
 firstname = ("John")
 lastname = ("Smith")
 age = 20
