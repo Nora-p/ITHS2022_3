@@ -1,14 +1,8 @@
-import pytest
 import Patient_new
-
-print("1")
 
 
 def test_name():
     assert Patient_new.patient.findname("John", "Smith") == ("JohnSmith")
-
-
-print("2")
 
 
 def test_age():
