@@ -1,8 +1,8 @@
 
 class patient:
 
-    def findname (firstname, lastname):
-        return firstname + lastname
+    def findname (fullname):
+        return fullname
 
     def findphone (tel):
         return tel
