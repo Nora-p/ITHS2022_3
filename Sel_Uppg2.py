@@ -9,8 +9,13 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 driver.get("https://www.rexel.se")
 driver.fullscreen_window()
 time.sleep(8)
-search = driver.find_element(By.XPATH, "//*[@id='search']")
-search.send_keys("3764015")
-search.send_keys(Keys.ENTER)
-time.sleep(7)
+driver.find_element(By.XPATH, "//*[@id='declineAllConsentSummary']").click()
+hitta = driver.find_element(By.XPATH, "//*[@id='search']")
+hitta.send_keys("1534901")
+hitta.send_keys(Keys.ENTER)
+time.sleep(8)
 
+def test_checkart():
+    nora1 = driver.find_element(By.XPATH, "//*[@id='pdp-content-slot-1']/div[1]/div[7]/div[5]/div/div[4]/div/div[2]")
+    nora1 = nora1.text
+    assert "3764015" in nora1
