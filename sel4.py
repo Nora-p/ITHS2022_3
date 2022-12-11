@@ -24,3 +24,6 @@ def test_kundvagn():
     korg = driver.find_element(By.XPATH, "// *[ @ id = 'miniCartContainer'] / span")
     korg = korg.text
     assert korg == "1"
+    driver.find_element(By.XPATH, "//*[@id='addToCartDiv_1534901']/span").click()
+    korg = korg.text
+    assert korg == "2"
