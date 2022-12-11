@@ -20,10 +20,12 @@ def test_kundvagn():
     nora1 = nora1.text
     assert "1534901" in nora1
     driver.find_element(By.XPATH, "//*[@id='addToCartDiv_1534901']/span").click()
-    time.sleep(2)
+    time.sleep(6)
     korg = driver.find_element(By.XPATH, "// *[ @ id = 'miniCartContainer'] / span")
     korg = korg.text
     assert korg == "1"
     driver.find_element(By.XPATH, "//*[@id='addToCartDiv_1534901']/span").click()
+    time.sleep((6))
+    korg = driver.find_element(By.XPATH, "// *[ @ id = 'miniCartContainer'] / span")
     korg = korg.text
     assert korg == "2"
