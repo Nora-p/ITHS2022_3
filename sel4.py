@@ -23,4 +23,4 @@ def test_kundvagn():
     time.sleep(2)
     korg = driver.find_element(By.XPATH, "// *[ @ id = 'miniCartContainer'] / span")
     korg = korg.text
-    assert korg == 1
+    assert korg == "1"
